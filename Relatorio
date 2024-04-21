@@ -1,0 +1,47 @@
+
+
+Maria Eduarda Andrade de Castro
+RA:244674-1
+
+Relatório de Desenvolvimento - Projeto de Estrutura de Dados
+
+Introdução:
+
+Este relatório documenta o processo de desenvolvimento de um código para a disciplina
+de Estrutura de Dados, abordando a criação de um programa em Java que
+incluindo os métodos.
+
+Etapas do Desenvolvimento
+
+Requisitos:
+Inicialmente, foram compreendidos os requisitos do projeto, examinando 
+cuidadosamente o documento para entender como o sistema seria desenvolvido. Isso incluiu a identificação 
+dos principais métodos necessários, como ordenação por bolha, seleção e inserção, bem como o uso de vetores.
+
+Pesquisa:
+Foram realizadas pesquisas sobre os métodos mencionados, a fim de compreender 
+seus conceitos e implementações em Java. Isso proporcionou uma 
+base sólida para o desenvolvimento do código.
+
+
+Início do Desenvolvimento:
+Com base nos requisitos identificados e nas pesquisas realizadas, deu-se início à criação do código. Foi importante seguir as práticas recomendadas e considerar a eficiência e a legibilidade do código desde o início.
+
+
+Implementação do Código:
+O código foi desenvolvido em conformidade com as melhores práticas estabelecidas, e foram
+conduzidos testes abrangentes para assegurar sua funcionalidade em uma variedade de cenários e ferramentas. As ferramentas 
+empregadas incluem um compilador online e o ambiente de desenvolvimento VSCode.
+No sistema, foi estabelecido um menu de opções, permitindo ao usuário selecionar o
+tamanho do vetor e inserir seus elementos. Posteriormente, foram implementados os métodos de ordenação e, por fim, a manipulação dos vetores.
+
+Conclusão:
+
+O desenvolvimento deste código para a disciplina de 
+Estrutura de Dados resultou em uma solução robusta e eficiente, 
+que atendeu aos requisitos do projeto. Ao compreender os requisitos, realizar pesquisas 
+adequadas e seguir práticas de desenvolvimento recomendadas.
+
+
+
+
