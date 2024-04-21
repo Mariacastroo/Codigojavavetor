@@ -1,0 +1,74 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        boolean continuar = true;
+
+        while (continuar) {
+            System.out.println("Menu de opções");
+            System.out.println("Olá caro usuário, seja bem vindo ao sistema para dar início:");  
+            System.out.println("Selecione o método de ordenação:");
+            System.out.println("1. Ordenação por inserção");
+            System.out.println("2. Ordenação por seleção");
+            System.out.println("3. Ordenação bolha");
+            System.out.print("Qual é a opção: ");
+            int opcao = scanner.nextInt();
+
+            System.out.print("Tamanho do vetor: ");
+            int tamanho = scanner.nextInt();
+            ArrayList<Integer> vetor = new ArrayList<>();
+            System.out.println("Elementos do vetor:");
+            for (int i = 0; i < tamanho; i++) {
+                vetor.add(scanner.nextInt());
+            }
+
+            System.out.println("Vetor original:");
+            exibirVetor(vetor);
+            
+            switch (opcao) {
+                case 1:
+                    
+                    break;
+                case 2:
+                    
+                    break;
+                case 3:
+                                        break;
+                default:
+                    System.out.println("Opção inválida.");
+                    break;
+            }
+
+            System.out.println("Deseja calcular a média dos elementos do vetor? (S/N)");
+            char escolha = scanner.next().charAt(0);
+            if (escolha == 'S' || escolha == 's') {
+                calcularMedia(vetor);
+            }
+
+            System.out.println("Deseja continuar? (S/N)");
+            char continuarEscolha = scanner.next().charAt(0);
+            if (continuarEscolha == 'N' || continuarEscolha == 'n') {
+                continuar = false;
+            }
+        }
+    }
+
+    public static void exibirVetor(ArrayList<Integer> vetor) {
+        for (int i = 0; i < vetor.size(); i++) {
+            System.out.print(vetor.get(i) + " ");
+        }
+        System.out.println();
+    }
+
+    public static void calcularMedia(ArrayList<Integer> vetor) {
+        int soma = 0;
+        for (int num : vetor) {
+            soma += num;
+        }
+        double media = (double) soma / vetor.size();
+        System.out.println("A média dos elementos do vetor é: " + media);
+    }
+}
+
